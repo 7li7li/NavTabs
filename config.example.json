@@ -1,0 +1,59 @@
+{
+  "backgroundImage": "https://source.unsplash.com/1920x1080/nature",
+  "webTitle": "我的导航站",
+  "settings": {
+    "timeSeconds": true,
+    "brightness": 80,
+    "blur": 0,
+    "fontColor": "#ffffff",
+    "searchRadius": 50,
+    "clockAreaHeight": 245,
+    "linkOpen": "_blank",
+    "cardStyle": {
+      "widthNum": 160,
+      "heightNum": 64,
+      "radius": 16,
+      "gap": 20,
+      "boxShadow": "0 4px 16px rgba(0, 0, 0, 0.1)"
+    }
+  },
+  "searchEngines": [
+    {
+      "label": "Google",
+      "link": "https://www.google.com/search?q=",
+      "icon": "https://www.google.com/favicon.ico",
+      "use": true
+    },
+    {
+      "label": "百度",
+      "link": "https://www.baidu.com/s?wd=",
+      "icon": "https://www.baidu.com/favicon.ico",
+      "use": true
+    },
+    {
+      "label": "Bing",
+      "link": "https://www.bing.com/search?q=",
+      "icon": "https://www.bing.com/favicon.ico",
+      "use": true
+    },
+    {
+      "label": "DuckDuckGo",
+      "link": "https://duckduckgo.com/?q=",
+      "icon": "https://duckduckgo.com/favicon.ico",
+      "use": true
+    }
+  ],
+  "aiChat": {
+    "enabled": true,
+    "url": "https://chatgpt.com",
+    "title": "AI对话",
+    "icon": "https://example.com/ai-icon.svg",
+    "window": {
+      "width": 1024,
+      "height": 768,
+      "position": "left-center",
+      "minWidth": 300,
+      "minHeight": 400
+    }
+  }
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7li7li导航站</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://oss.funtabs.cn/favicon/1cb6340eb2f5d34459e4a6a3e17fdfd3.png">
+</head>
+<body>
+    <!-- 背景图片 -->
+    <div class="background-image"></div>
+    
+    <div class="container">
+        <!-- 时钟显示 -->
+        <div class="clock-container">
+            <div class="time" id="currentTime">00:00:00</div>
+            <div class="date" id="currentDate">2026年2月4日 星期三</div>
+        </div>
+        
+        <!-- 搜索框 -->
+        <div class="search-container">
+            <div class="search-box">
+                <div class="search-engine-selector" id="searchEngine">
+                    <img src="https://www.google.com/favicon.ico" alt="Google" id="searchIcon">
+                    <span class="dropdown-arrow">▼</span>
+                </div>
+                <input type="text" class="search-input" placeholder="搜索..." id="searchInput">
+            </div>
+            <div class="search-engines-dropdown" id="searchEngines">
+                <!-- 搜索引擎选项将通过JavaScript动态生成 -->
+            </div>
+        </div>
+        
+        <!-- AI对话框触发按钮 -->
+        <div class="ai-chat-trigger" id="aiChatTrigger">
+            <div class="ai-chat-icon" id="aiChatIcon">
+                <!-- 图标将通过JavaScript动态设置 -->
+            </div>
+            <span>AI对话</span>
+        </div>
+        
+        <!-- 标签页导航 -->
+        <nav class="tabs-nav">
+            <div class="tab-buttons" id="tabButtons">
+                <!-- 标签页按钮将通过JavaScript生成 -->
+            </div>
+        </nav>
+        
+        <!-- 网站卡片内容 -->
+        <main class="main-content">
+            <div class="sites-container" id="sitesContainer">
+                <!-- 网站卡片将通过JavaScript生成 -->
+            </div>
+        </main>
+    </div>
+    
+    <!-- AI对话框模态窗口 -->
+    <div class="ai-chat-modal" id="aiChatModal">
+        <div class="ai-chat-container" id="aiChatContainer">
+            <div class="ai-chat-header">
+                <h3 id="aiChatTitle">AI对话</h3>
+                <div class="ai-chat-controls">
+                    <button class="ai-chat-maximize" id="aiChatMaximize" title="最大化">□</button>
+                    <button class="ai-chat-close" id="aiChatClose" title="关闭">×</button>
+                </div>
+            </div>
+            <div class="ai-chat-content">
+                <iframe id="aiChatFrame" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="ai-chat-resize-handle"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

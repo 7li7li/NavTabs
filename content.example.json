@@ -1,0 +1,202 @@
+[
+  {
+    "label": "常用",
+    "content": [
+      {
+        "label": "Google",
+        "link": "https://www.google.com",
+        "icon": "https://www.google.com/favicon.ico"
+      },
+      {
+        "label": "GitHub",
+        "link": "https://github.com",
+        "icon": "./icons/github.svg"
+      },
+      {
+        "label": "Stack Overflow",
+        "link": "https://stackoverflow.com",
+        "icon": "https://stackoverflow.com/favicon.ico"
+      },
+      {
+        "label": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "icon": "https://developer.mozilla.org/favicon-48x48.png"
+      }
+    ]
+  },
+  {
+    "label": "开发工具",
+    "content": [
+      {
+        "label": "VS Code",
+        "link": "https://code.visualstudio.com",
+        "icon": "https://code.visualstudio.com/favicon.ico"
+      },
+      {
+        "label": "CodePen",
+        "link": "https://codepen.io",
+        "icon": "https://codepen.io/favicon.ico"
+      },
+      {
+        "label": "JSFiddle",
+        "link": "https://jsfiddle.net",
+        "icon": "https://jsfiddle.net/favicon.png"
+      },
+      {
+        "label": "Repl.it",
+        "link": "https://replit.com",
+        "icon": "https://replit.com/favicon.ico"
+      }
+    ]
+  },
+  {
+    "label": "学习资源",
+    "content": [
+      {
+        "label": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org",
+        "icon": "https://www.freecodecamp.org/favicon.ico"
+      },
+      {
+        "label": "Coursera",
+        "link": "https://www.coursera.org",
+        "icon": "https://www.coursera.org/favicon.ico"
+      },
+      {
+        "label": "Khan Academy",
+        "link": "https://www.khanacademy.org",
+        "icon": "https://www.khanacademy.org/favicon.ico"
+      },
+      {
+        "label": "Udemy",
+        "link": "https://www.udemy.com",
+        "icon": "https://www.udemy.com/staticx/udemy/images/v7/favicon.ico"
+      }
+    ]
+  },
+  {
+    "label": "设计工具",
+    "content": [
+      {
+        "label": "Figma",
+        "link": "https://www.figma.com",
+        "icon": "https://www.figma.com/favicon.ico"
+      },
+      {
+        "label": "Canva",
+        "link": "https://www.canva.com",
+        "icon": "https://www.canva.com/favicon.ico"
+      },
+      {
+        "label": "Unsplash",
+        "link": "https://unsplash.com",
+        "icon": "https://unsplash.com/favicon-32x32.png"
+      },
+      {
+        "label": "Dribbble",
+        "link": "https://dribbble.com",
+        "icon": "https://dribbble.com/favicon.ico"
+      }
+    ]
+  },
+  {
+    "label": "社交媒体",
+    "content": [
+      {
+        "label": "Twitter",
+        "link": "https://twitter.com",
+        "icon": "https://twitter.com/favicon.ico"
+      },
+      {
+        "label": "LinkedIn",
+        "link": "https://www.linkedin.com",
+        "icon": "https://www.linkedin.com/favicon.ico"
+      },
+      {
+        "label": "Reddit",
+        "link": "https://www.reddit.com",
+        "icon": "https://www.reddit.com/favicon.ico"
+      },
+      {
+        "label": "Discord",
+        "link": "https://discord.com",
+        "icon": "https://discord.com/assets/favicon.ico"
+      }
+    ]
+  },
+  {
+    "label": "娱乐",
+    "content": [
+      {
+        "label": "YouTube",
+        "link": "https://www.youtube.com",
+        "icon": "https://www.youtube.com/favicon.ico"
+      },
+      {
+        "label": "Netflix",
+        "link": "https://www.netflix.com",
+        "icon": "https://www.netflix.com/favicon.ico"
+      },
+      {
+        "label": "Spotify",
+        "link": "https://www.spotify.com",
+        "icon": "https://www.spotify.com/favicon.ico"
+      },
+      {
+        "label": "Twitch",
+        "link": "https://www.twitch.tv",
+        "icon": "https://www.twitch.tv/favicon.ico"
+      }
+    ]
+  },
+  {
+    "label": "工具",
+    "content": [
+      {
+        "label": "Google Translate",
+        "link": "https://translate.google.com",
+        "icon": "https://translate.google.com/favicon.ico"
+      },
+      {
+        "label": "Notion",
+        "link": "https://www.notion.so",
+        "icon": "https://www.notion.so/favicon.ico"
+      },
+      {
+        "label": "Trello",
+        "link": "https://trello.com",
+        "icon": "https://trello.com/favicon.ico"
+      },
+      {
+        "label": "Dropbox",
+        "link": "https://www.dropbox.com",
+        "icon": "https://www.dropbox.com/favicon.ico"
+      }
+    ]
+  },
+  {
+    "label": "新闻",
+    "content": [
+      {
+        "label": "BBC News",
+        "link": "https://www.bbc.com/news",
+        "icon": "https://www.bbc.com/favicon.ico"
+      },
+      {
+        "label": "CNN",
+        "link": "https://www.cnn.com",
+        "icon": "https://www.cnn.com/favicon.ico"
+      },
+      {
+        "label": "Hacker News",
+        "link": "https://news.ycombinator.com",
+        "icon": "https://news.ycombinator.com/favicon.ico"
+      },
+      {
+        "label": "TechCrunch",
+        "link": "https://techcrunch.com",
+        "icon": "https://techcrunch.com/favicon.ico"
+      }
+    ]
+  }
+]
