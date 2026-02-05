@@ -1,6 +1,7 @@
 {
   "backgroundImage": "https://source.unsplash.com/1920x1080/nature",
   "webTitle": "我的导航站",
+  "favicon": "./icons/favicon.ico",
   "settings": {
     "timeSeconds": true,
     "brightness": 80,

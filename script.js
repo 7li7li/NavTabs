@@ -32,6 +32,8 @@ class NavigationSite {
         this.restoreActiveTab();
         
         this.updateBackground();
+        this.updateFavicon();
+        this.updateTitle();
     }
 
     async loadConfig() {
@@ -74,16 +76,19 @@ class NavigationSite {
         if (this.data.searchEngines && Array.isArray(this.data.searchEngines)) {
             this.searchEngines = {};
             this.data.searchEngines.forEach((engine, index) => {
-                const key = engine.label.toLowerCase().replace(/\s+/g, '');
-                this.searchEngines[key] = {
-                    name: engine.label,
-                    url: engine.link,
-                    icon: engine.icon
-                };
-                
-                // 设置第一个搜索引擎为默认
-                if (index === 0) {
-                    this.currentSearchEngine = key;
+                // 只加载启用的搜索引擎
+                if (engine.use !== false) {
+                    const key = engine.label.toLowerCase().replace(/\s+/g, '');
+                    this.searchEngines[key] = {
+                        name: engine.label,
+                        url: engine.link,
+                        icon: engine.icon
+                    };
+                    
+                    // 设置第一个启用的搜索引擎为默认
+                    if (Object.keys(this.searchEngines).length === 1) {
+                        this.currentSearchEngine = key;
+                    }
                 }
             });
         } else {
@@ -584,6 +589,33 @@ class NavigationSite {
         const backgroundElement = document.querySelector('.background-image');
         if (this.data.backgroundImage) {
             backgroundElement.style.backgroundImage = `url('${this.data.backgroundImage}')`;
+        }
+    }
+
+    // 更新网站图标
+    updateFavicon() {
+        if (this.data.favicon) {
+            // 查找现有的favicon链接
+            let faviconLink = document.querySelector('link[rel="icon"]') || 
+                             document.querySelector('link[rel="shortcut icon"]');
+            
+            if (faviconLink) {
+                // 更新现有的favicon
+                faviconLink.href = this.data.favicon;
+            } else {
+                // 创建新的favicon链接
+                faviconLink = document.createElement('link');
+                faviconLink.rel = 'icon';
+                faviconLink.href = this.data.favicon;
+                document.head.appendChild(faviconLink);
+            }
+        }
+    }
+
+    // 更新网站标题
+    updateTitle() {
+        if (this.data.webTitle) {
+            document.title = this.data.webTitle;
         }
     }
 

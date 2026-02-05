@@ -9,6 +9,7 @@
 {
   "backgroundImage": "背景图片URL",
   "webTitle": "网站标题",
+  "favicon": "网站图标路径或URL",
   "settings": {
     "timeSeconds": true,
     "brightness": 80,
@@ -53,6 +54,10 @@
 ### 顶层配置
 - **backgroundImage**: 网站背景图片的URL地址
 - **webTitle**: 网站标题，显示在浏览器标签页
+- **favicon**: 网站图标（favicon），显示在浏览器标签页和书签中
+  - 支持本地文件：`"./icons/favicon.ico"`
+  - 支持在线图片：`"https://example.com/favicon.png"`
+  - 支持格式：ICO, PNG, SVG等
 
 ### 设置选项 (settings)
 - **timeSeconds**: 是否显示时间的秒数 (true/false)

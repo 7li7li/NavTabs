@@ -196,6 +196,8 @@ cp content.example.json content.json
 ```json
 {
   "backgroundImage": "https://example.com/background.jpg",
+  "webTitle": "我的导航站",
+  "favicon": "./icons/favicon.ico",
   "content": [
     {
       "label": "分类名称",
