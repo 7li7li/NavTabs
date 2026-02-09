@@ -216,6 +216,15 @@ body {
     white-space: nowrap;
     position: relative;
     border-bottom: 2px solid transparent;
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: center;
+    line-height: 1.2;
+    vertical-align: baseline;
+    font-feature-settings: "kern" 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .tab-button:hover {
