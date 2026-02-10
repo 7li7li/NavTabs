@@ -5,7 +5,7 @@
       {
         "label": "Google",
         "link": "https://www.google.com",
-        "icon": "https://www.google.com/favicon.ico"
+        "icon": "./icons/google.svg"
       },
       {
         "label": "GitHub",

@@ -97,17 +97,17 @@ class NavigationSite {
                 google: {
                     name: 'Google',
                     url: 'https://www.google.com/search?q=',
-                    icon: 'https://www.google.com/favicon.ico'
+                    icon: './icons/google.svg'
                 },
                 baidu: {
                     name: '百度',
                     url: 'https://www.baidu.com/s?wd=',
-                    icon: 'https://www.baidu.com/favicon.ico'
+                    icon: './icons/baidu.svg'
                 },
                 bing: {
                     name: 'Bing',
                     url: 'https://www.bing.com/search?q=',
-                    icon: 'https://www.bing.com/favicon.ico'
+                    icon: './icons/bing.svg'
                 }
             };
             this.currentSearchEngine = 'google';

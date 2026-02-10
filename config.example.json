@@ -22,25 +22,25 @@
     {
       "label": "Google",
       "link": "https://www.google.com/search?q=",
-      "icon": "https://www.google.com/favicon.ico",
+      "icon": "./icons/google.svg",
       "use": true
     },
     {
       "label": "百度",
       "link": "https://www.baidu.com/s?wd=",
-      "icon": "https://www.baidu.com/favicon.ico",
+      "icon": "./icons/baidu.svg",
       "use": true
     },
     {
       "label": "Bing",
       "link": "https://www.bing.com/search?q=",
-      "icon": "https://www.bing.com/favicon.ico",
+      "icon": "./icons/bing.svg",
       "use": true
     },
     {
       "label": "DuckDuckGo",
       "link": "https://duckduckgo.com/?q=",
-      "icon": "https://duckduckgo.com/favicon.ico",
+      "icon": "./icons/duckduckgo.svg",
       "use": true
     }
   ],
